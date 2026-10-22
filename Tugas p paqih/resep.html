@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Buku Resep</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            color: #000;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .bahan-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .bahan-kiri {
+            width: 60%;
+        }
+        .bahan-kanan {
+            width: 35%;
+            text-align: right;
+        }
+        .bahan-kanan img {
+            max-width: 100%;
+            height: auto;
+        }
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        ul, ol {
+            font-size: 14px;
+            margin-top: 0;
+            padding-left: 20px;
+            line-height: 1.5;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .langkah-img {
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resep Donat Kentang Empuk</h1>
+
+        <!-- Bagian Atas: Teks Bahan di Kiri, Gambar Utama di Kanan -->
+        <div class="bahan-section">
+            <div class="bahan-kiri">
+                <h3>Bahan-bahan:</h3>
+                <ul>
+                    <li>250 gr tepung terigu protein tinggi</li>
+                    <li>100 gr kentang kukus, haluskan</li>
+                    <li>1 butir kuning telur</li>
+                    <li>50 gr gula pasir</li>
+                    <li>1 sdt ragi instan</li>
+                    <li>100 ml susu cair dingin</li>
+                    <li>30 gr margarin</li>
+                    <li>Sejumput garam</li>
+                    <br>
+                    <strong>Bahan Topping:</strong>
+                    <li>Gula halus (gula donat) secukupnya</li>
+                    <li>Meses cokelat secukupnya</li>
+                    <li>Mentega untuk olesan meses</li>
+                </ul>
+            </div>
+            <div class="bahan-kanan">
+                <!-- Gambar Utama Donat -->
+                <img src="resep1.png" alt="Donat Kentang Empuk">
+            </div>
+        </div>
+
+        <!-- Garis Pembatas -->
+        <hr>
+
+        <!-- Bagian Bawah: Langkah-langkah dan Gambar Kecil -->
+        <h3>Langkah-langkah</h3>
+        <ol>
+            <li>
+                Campur tepung terigu, gula, ragi, dan kentang halus. Masukkan kuning telur dan susu cair sedikit demi sedikit sambil diuleni hingga adonan setengah kalis.
+                <!-- Gambar Langkah 1 -->
+                <img src="resep2.png" alt="Langkah 1" class="langkah-img">
+            </li>
+            <li>
+                Tambahkan margarin dan garam. Uleni terus hingga adonan benar-benar kalis elastis. Tutup rapat dan diamkan adonan selama 40 menit hingga mengembang dua kali lipat.
+                <!-- Gambar Langkah 2 -->
+                <img src="resep3.png" alt="Langkah 2" class="langkah-img">
+            </li>
+            <li>
+                Kempiskan adonan, bagi menjadi beberapa bagian, bentuk bulat-bulat, lalu lubangi tengahnya. Goreng dalam minyak panas api kecil. Angkat, dinginkan sebentar, lalu taburi gula halus atau olesi mentega dan taburi meses.
+                <!-- Gambar Langkah 3 -->
+                <img src="resep4.png" alt="Langkah 3" class="langkah-img">
+            </li>
+        </ol>
+    </div>
+
+</body>
+</html>

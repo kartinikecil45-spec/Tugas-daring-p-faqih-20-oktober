@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Layout Pancasila</title>
+    <style>
+        body {
+            /* Menggunakan font serif agar formal seperti di gambar */
+            font-family: "Times New Roman", Times, serif; 
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto; /* Membuat posisi ke tengah layar */
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            letter-spacing: 2px;
+            margin-bottom: 50px;
+            /* Memberikan efek bayangan tipis pada judul */
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.3); 
+        }
+        .baris {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .gambar-box {
+            width: 130px;
+            height: 130px;
+        }
+        .gambar-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .teks-box {
+            width: 380px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        /* Mengatur posisi teks di kanan gambar */
+        .teks-kanan {
+            text-align: left;
+            padding-left: 20px;
+        }
+        /* Mengatur posisi teks di kiri gambar */
+        .teks-kiri {
+            text-align: right;
+            padding-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>PANCASILA</h1>
+
+        <!-- Sila 1 -->
+        <div class="baris">
+            <div class="gambar-box">
+                <img src="Sila1.png" alt="Sila 1"> 
+            </div>
+            <div class="teks-box teks-kanan">
+                Ketuhanan Yang Maha Esa
+            </div>
+        </div>
+
+        <!-- Sila 2 -->
+        <div class="baris">
+            <div class="teks-box teks-kiri">
+                Kemanusiaan Yang Adil dan Beradab
+            </div>
+            <div class="gambar-box">
+                <img src="sila2.png" alt="Sila 2">
+            </div>
+        </div>
+
+        <!-- Sila 3 -->
+        <div class="baris">
+            <div class="gambar-box">
+                <img src="sila3.png" alt="Sila 3">
+            </div>
+            <div class="teks-box teks-kanan">
+                Persatuan Indonesia
+            </div>
+        </div>
+
+        <!-- Sila 4 -->
+        <div class="baris">
+            <div class="teks-box teks-kiri">
+                Kerakyatan yang dipimpin oleh hikmat kebijaksanaan<br>
+                dalam permusyawaratan perwakilan
+            </div>
+            <div class="gambar-box">
+                <img src="sila4.png" alt="Sila 4">
+            </div>
+        </div>
+
+        <!-- Sila 5 -->
+        <div class="baris">
+            <div class="gambar-box">
+                <img src="sila5.png" alt="Sila 5">
+            </div>
+            <div class="teks-box teks-kanan">
+                Keadilan sosial bagi seluruh rakyat Indonesia
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
